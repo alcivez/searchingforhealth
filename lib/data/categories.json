@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "slug": "anatomy",
+    "name": "Anatomy",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 2,
+    "slug": "birthing",
+    "name": "Birthing",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 3,
+    "slug": "cancer",
+    "name": "Cancer",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 4,
+    "slug": "detox",
+    "name": "Detox",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 5,
+    "slug": "diet",
+    "name": "Diet",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 6,
+    "slug": "disease-prevention",
+    "name": "Disease Prevention",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 7,
+    "slug": "earthing",
+    "name": "Earthing",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 8,
+    "slug": "eyesight",
+    "name": "Eyesight",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 9,
+    "slug": "fitness",
+    "name": "Fitness",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 10,
+    "slug": "healing",
+    "name": "Healing",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 11,
+    "slug": "hormones",
+    "name": "Hormones",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 12,
+    "slug": "lifestyle",
+    "name": "Lifestyle",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 13,
+    "slug": "mental-health",
+    "name": "Mental Health",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 14,
+    "slug": "pain-management",
+    "name": "Pain Management",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 15,
+    "slug": "rest",
+    "name": "Rest &amp; Relaxation",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 16,
+    "slug": "spiritual",
+    "name": "Spiritual",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 17,
+    "slug": "turbo-cancer",
+    "name": "Turbo Cancer",
+    "description": "",
+    "count": 0,
+    "parent": null
+  },
+  {
+    "id": 18,
+    "slug": "uncategorized",
+    "name": "Uncategorized",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 19,
+    "slug": "vaccine-injury",
+    "name": "Vaccine Injury",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 20,
+    "slug": "hydration",
+    "name": "Water Hydration",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  },
+  {
+    "id": 21,
+    "slug": "weight-loss",
+    "name": "Weight Loss",
+    "description": "",
+    "count": 0,
+    "parent": 0
+  }
+]

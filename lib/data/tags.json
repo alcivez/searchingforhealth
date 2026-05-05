@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "slug": "ben-greenfield",
+    "name": "Ben Greenfield",
+    "count": 0
+  },
+  {
+    "id": 2,
+    "slug": "dr-al-sears",
+    "name": "Dr. Al Sears",
+    "count": 0
+  },
+  {
+    "id": 3,
+    "slug": "dr-barbara-oneill",
+    "name": "Dr. Barbara O'Neill",
+    "count": 0
+  },
+  {
+    "id": 4,
+    "slug": "dr-joel-wallach",
+    "name": "Dr. Joel D. Wallach",
+    "count": 0
+  },
+  {
+    "id": 5,
+    "slug": "dr-joseph-mercola",
+    "name": "Dr. Joseph Mercola",
+    "count": 0
+  },
+  {
+    "id": 6,
+    "slug": "dr-mark-sircus",
+    "name": "Dr. Mark Sircus",
+    "count": 0
+  },
+  {
+    "id": 7,
+    "slug": "dr-robert-morse",
+    "name": "Dr. Robert Morse",
+    "count": 0
+  },
+  {
+    "id": 8,
+    "slug": "dr-sebi",
+    "name": "Dr. Sebi",
+    "count": 0
+  },
+  {
+    "id": 9,
+    "slug": "dr-steven-gundry",
+    "name": "Dr. Steven Gundry",
+    "count": 0
+  },
+  {
+    "id": 10,
+    "slug": "dr-thomas-levy",
+    "name": "Dr. Thomas Levy",
+    "count": 0
+  },
+  {
+    "id": 11,
+    "slug": "gary-brecka",
+    "name": "Gary Brecka",
+    "count": 0
+  },
+  {
+    "id": 12,
+    "slug": "ivermectin",
+    "name": "Ivermectin",
+    "count": 0
+  },
+  {
+    "id": 13,
+    "slug": "joe-rogan",
+    "name": "Joe Rogan",
+    "count": 0
+  }
+]
