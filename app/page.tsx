@@ -23,6 +23,17 @@ export default function HomePage() {
   useEffect(() => {
     // Set random books on client side only to avoid hydration mismatch
     setRandomBooks(getRandomBooks(24));
+
+    // Register service worker for caching
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(registration => {
+          console.log('Service Worker registered:', registration);
+        })
+        .catch(error => {
+          console.log('Service Worker registration failed:', error);
+        });
+    }
   }, []);
 
   return (

@@ -1,0 +1,22 @@
+{
+  "background_color": "#ffffff",
+  "description": "Discover carefully curated books on health, wellness, nutrition, and natural healing",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "32x32",
+      "src": "/SFH-Favicon-.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "apple-touch-icon",
+      "sizes": "180x180",
+      "src": "/SFH-Favicon-.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "Searching for Health",
+  "short_name": "SFH",
+  "start_url": "/",
+  "theme_color": "#222222"
+}
