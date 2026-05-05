@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import categories from '../lib/data/categories.json';
 
@@ -30,13 +29,11 @@ export default function BookCard({ book }: BookCardProps) {
         {/* Book Cover - Fixed width to match book cover */}
         <div className="relative w-full aspect-[2/3] bg-gray-100 flex items-center justify-center p-2 group-hover:bg-gray-50 transition-colors overflow-hidden">
           {book.coverImage ? (
-            <Image
+            <img
               src={book.coverImage}
               alt={book.title}
-              width={160}
-              height={240}
               className="object-contain w-full h-full group-hover:scale-105 transition-transform duration-300"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
+              loading="lazy"
             />
           ) : (
             <div className="flex items-center justify-center h-full w-full text-gray-400 text-xs">
