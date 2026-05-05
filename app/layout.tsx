@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   title: "Searching for Health - Health Library Collection",
   description: "Discover carefully curated books on health, wellness, nutrition, and natural healing",
   icons: {
-    icon: '/favicon.png',
-    apple: '/favicon.png',
+    icon: '/SFH-Favicon-.png',
+    apple: '/SFH-Favicon-.png',
   },
 };
 

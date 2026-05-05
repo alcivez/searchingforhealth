@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 
 const PROMO_IMAGES = [
   '/promo-1.webp',
@@ -28,12 +27,11 @@ export default function PromoImages() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         {selectedImages.map((image, index) => (
           <div key={index} className="relative w-full aspect-square rounded-lg overflow-hidden shadow-lg">
-            <Image
+            <img
               src={image}
               alt={`Promotional banner ${index + 1}`}
-              fill
-              className="object-cover"
-              priority={index < 2} // Prioritize loading first 2 images
+              className="w-full h-full object-cover"
+              loading={index < 2 ? "eager" : "lazy"}
             />
           </div>
         ))}

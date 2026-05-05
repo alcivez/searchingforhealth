@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const healthLeaders = [
   { name: 'Dr. Joseph Mercola', slug: 'dr-joseph-mercola' },
@@ -40,11 +39,10 @@ export default function Navigation() {
           {/* Logo - Full size with embedded text */}
           <Link href="/" className="group">
             <div className="relative w-64 h-24 group-hover:scale-105 transition-transform">
-              <Image
+              <img
                 src="/logo.png"
                 alt="Searching for Health"
-                fill
-                className="object-contain"
+                className="w-full h-full object-contain"
               />
             </div>
           </Link>
