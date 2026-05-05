@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# WordPress export
+wordpress-export.xml
+
+# Source images
+"3 Image per site load per time"
+SFH Logo.png
+SFH-Favicon-.png
