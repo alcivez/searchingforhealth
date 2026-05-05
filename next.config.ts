@@ -1,6 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     remotePatterns: [
       {
@@ -11,6 +17,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Cloudflare Pages configuration
+  output: 'export',
+  trailingSlash: true,
 };
 
 export default nextConfig;

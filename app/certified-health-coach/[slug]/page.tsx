@@ -10,8 +10,9 @@ export async function generateStaticParams() {
     }));
 }
 
-export default function HealthCoachProfile({ params }: { params: { slug: string } }) {
-  const coach = healthCoaches.find(c => c.slug === params.slug && c.status === 'publish');
+export default async function HealthCoachProfile({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const coach = healthCoaches.find(c => c.slug === slug && c.status === 'publish');
 
   if (!coach) {
     return (

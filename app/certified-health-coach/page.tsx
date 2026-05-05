@@ -13,8 +13,8 @@ export default function HealthCoachesDirectory() {
   const [filteredCoaches, setFilteredCoaches] = useState(healthCoaches.filter(coach => coach.status === 'publish'));
 
   // Extract unique categories and locations
-  const categories = ['all', ...Array.from(new Set(healthCoaches.flatMap(coach => coach.categories)))];
-  const locations = ['all', ...Array.from(new Set(healthCoaches.flatMap(coach => coach.locations)))];
+  const categories: string[] = ['all', ...Array.from(new Set(healthCoaches.flatMap(coach => coach.categories || [])))];
+  const locations: string[] = ['all', ...Array.from(new Set(healthCoaches.flatMap(coach => coach.locations || [])))];
 
   // Filter coaches
   useEffect(() => {
@@ -28,11 +28,14 @@ export default function HealthCoachesDirectory() {
     }
 
     if (selectedCategory !== 'all') {
-      filtered = filtered.filter(coach => coach.categories.includes(selectedCategory));
+      filtered = filtered.filter(coach => (coach.categories || []).includes(selectedCategory));
     }
 
     if (selectedLocation !== 'all') {
-      filtered = filtered.filter(coach => coach.locations.includes(selectedLocation));
+      filtered = filtered.filter(coach => {
+        const locs = (coach.locations || []) as string[];
+        return locs.includes(selectedLocation);
+      });
     }
 
     setFilteredCoaches(filtered);
@@ -266,7 +269,7 @@ export default function HealthCoachesDirectory() {
                   ) : (
                     <button
                       key={page}
-                      onClick={() => setCurrentPage(page)}
+                      onClick={() => typeof page === 'number' && setCurrentPage(page)}
                       className={`px-4 py-2 rounded-lg border transition-colors ${
                         currentPage === page
                           ? 'bg-orange-400 text-white border-orange-400'
